@@ -15,9 +15,13 @@ Original Git [website](https://git-scm.com/book/en/v2/Getting-Started-Installing
 
 ## Oracle Enterprise Manager Database Express Info
 **URL:** [Here](https://localhost:5500/em/shell)
+
 **Username:** system
+
 **Password:** oracle
+
 **Container:** orclpdb1
+
 - Change password by:
 > `docker exec oracle19c ./setPassword.sh NewPassword`
 
