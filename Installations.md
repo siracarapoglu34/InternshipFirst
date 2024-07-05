@@ -43,8 +43,13 @@ Original Git [website](https://git-scm.com/book/en/v2/Getting-Started-Installing
 
 ## DBeaver Oracle Connection Info
 **Host:** localhost
+
 **Port:** 1521
+
 **Database:** ORCLCDB
+
 **Username:** system
+
 **Password:** oracle
+
 **Role:** Normal
