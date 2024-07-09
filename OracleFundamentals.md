@@ -57,7 +57,7 @@ In dedicated server connections, the client connection is associated with one an
 2. **Shared Server Processes**
 In shared server connections, client applications connect over a network to a dispatcher process, not a server process. For example, 20 client processes can connect to a single dispatcher process. The dispatcher process receives requests from connected clients and puts them into a request queue in the large pool. The first available shared server process takes the request from the queue and processes it. Afterward, the shared server places the result into the dispatcher response queue. The dispatcher process monitors this queue and transmits the result to the client. Like a dedicated server process, a shared server process has its own PGA. However, the UGA for a session is in the SGA so that any shared server can access session data.
 
-3. **Background Processes**
+### **Background Processes**
 Background processes are additional processes used by a multiprocess Oracle database. The background processes perform maintenance tasks required to operate the database and to maximize performance for multiple users. Each background process has a separate task, but works with the other processes. For example, the LGWR process writes data from the redo log buffer to the online redo log. When a filled redo log file is ready to be archived, LGWR signals another process to archive the redo log file. Oracle Database creates background processes automatically when a database instance starts. An instance can have many background processes, not all of which always exist in every database configuration. There are three types of background processes. They are Mandatory, Optional and Slave Background Processes.
 
 ***Mandatory Background Processes***
