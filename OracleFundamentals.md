@@ -44,7 +44,7 @@ It's a group of shared memory structures, known as SGA components, that contain 
 
 5. **Java Pool:** Stores Java code and related data for sessions.
 
-### PGA
+### PGA (Program Global Area)
 A PGA is a non-shared memory region that contains data and control information exclusively for use by an Oracle process. Oracle Database creates the PGA when an Oracle process starts. One PGA exists for each server process and background process.
 
 ### Software Code Areas
