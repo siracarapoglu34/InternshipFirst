@@ -9,14 +9,6 @@ There so many reasons to use Oracle Database, like, **Scalability, Relianility&S
 - **Data Storage Management:** Oracle provides various storage options to meet performance requirements, including strategies for hot and cold data storage to optimize data access times.
 - **Technological Innovation and Developement:** Oracle continually innovates and invests in research and development to improve database management systems.
 
-### Important Terms
-- **RDBMS (Relational Database Management System):** 
-- **OLAP (Online Analytical Processing):** Is optimized for conducting complex data analysis and designed for use by data scientists, business analysts and knowledge workers.
-- **OLTP (Online Transaction Processing):** Is optimized for processing a massive number of transactions and designed for fast processing of large numbers of transactions per second.
-- **DWH (Data Warehouse):** Is designed for easy access to massive amount of data.
-- **SGA (System Global Area):** Provides a memory area to improve general database performance. It's shared and also easily accessible for all users.
-- **PGA (Program Global Area):** Provides a memory area for each individual user. It manages temporary data and transactions.
-
 ## 1. Memory Structures
 When an instance is started, Oracle Database allocates a memory area and starts **background process**. This area stores information such as program code, info about each connected session etc. Oracle Database has several memory areas. The basic structures are System Global Area(SGA), PRogram Global Area(PGA), User Global Area(UGA) and Software code areas.
 
